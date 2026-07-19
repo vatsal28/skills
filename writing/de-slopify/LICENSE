@@ -1,4 +1,4 @@
-de-slopify — licensing and attribution
+de-slopify  -  licensing and attribution
 =======================================
 
 This skill combines original work with material adapted from two upstream
@@ -6,7 +6,7 @@ sources under different licenses. To respect both, the skill is licensed in two
 parts. Please observe the split.
 
 
-1. Skill logic and original text — MIT License
+1. Skill logic and original text  -  MIT License
 ----------------------------------------------
 
 The workflow, structure, agent prompt, original examples, and original prose in
@@ -33,7 +33,7 @@ this package are:
     SOFTWARE.
 
 
-2. Adapted taxonomy content — CC BY-SA 4.0 (share-alike)
+2. Adapted taxonomy content  -  CC BY-SA 4.0 (share-alike)
 --------------------------------------------------------
 
 Portions of the pattern taxonomy in references/patterns.md,

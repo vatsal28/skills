@@ -1,4 +1,4 @@
-# de-slopify — weak signals & human-writing calibration
+# de-slopify  -  weak signals & human-writing calibration
 
 This file exists to prevent false positives. Read it whenever a diagnosis
 rests on thin evidence, or when a "human-written" draft is being reviewed for
@@ -27,12 +27,12 @@ probabilistic (see `../LICENSE`).
 
 ---
 
-## Ineffective indicators — never cite these as slop, never "fix" them for their own sake
+## Ineffective indicators  -  never cite these as slop, never "fix" them for their own sake
 
 - **Perfect grammar and spelling.** Cleanliness is not a tell. Do not inject
   errors (that's a hard safeguard).
 - **Formal or academic vocabulary in general.** "Utilize" in a legal brief,
-  "moreover" in a philosophy paper — genre-appropriate, not slop.
+  "moreover" in a philosophy paper  -  genre-appropriate, not slop.
 - **A "bland" feel alone.** Blandness without any concrete tell is not
   actionable. Boring human writing exists.
 - **Isolated transition words.** A single "Additionally," or "Furthermore," is
@@ -40,7 +40,7 @@ probabilistic (see `../LICENSE`).
 - **Oxford commas.** Millions of humans use them by house style. Not a signal.
 - **American vs. British spelling.** A regional default, not evidence.
 - **Correct or incorrect markup on its own.** Curly quotes, an em dash, a
-  thematic break — none is proof in isolation.
+  thematic break  -  none is proof in isolation.
 - **Mixed casual/formal register.** Humans code-switch mid-piece; this is not a
   tell by itself.
 
@@ -57,10 +57,10 @@ a cluster; do not remove on sight:
 
 - **B10** complex prepositional phrases ("in the context of")
 - **C7** curly quotes where straight are expected (fix only in code/plaintext)
-- **C8** hyphenated-pair uniformity — vary only where the open form is equally
+- **C8** hyphenated-pair uniformity  -  vary only where the open form is equally
   correct; **never** de-hyphenate mechanically (that breaks grammar)
-- **C11** Oxford comma, American spelling — documentation only, do not act
-- A lone **B1** vocabulary token — "robust," "delve," "crucial" once is noise
+- **C11** Oxford comma, American spelling  -  documentation only, do not act
+- A lone **B1** vocabulary token  -  "robust," "delve," "crucial" once is noise
 
 ---
 
@@ -74,7 +74,7 @@ Aim the rewrite at these, not at a scrubbed-clean ideal:
 - **Confident superlatives and firsts.** "one of the best," "was the first to,"
   stated without hedging. AI tends to over-qualify; humans commit.
 - **Mild, unstacked hedges and intensifiers.** "very," "perhaps," "tends to,"
-  "I think" — used once, not piled up.
+  "I think"  -  used once, not piled up.
 - **Some wordiness is human.** "as a result of," "in order to," "the fact
   that" appear in real writing. A rewrite polished to perfect efficiency reads
   as machine-made. Leave some natural slack.
@@ -87,7 +87,7 @@ Aim the rewrite at these, not at a scrubbed-clean ideal:
 **Important limit:** these are targets, not licenses to fabricate. Add a stance,
 a superlative, or a first-person aside only when it reflects something the
 author actually holds or the source actually supports. Never manufacture
-personality to hit a calibration target — a fake opinion is worse than a bland
+personality to hit a calibration target  -  a fake opinion is worse than a bland
 sentence.
 
 ---
@@ -95,11 +95,11 @@ sentence.
 ## Soulless-but-clean is still slop
 
 The subtle failure the ineffective-indicators list can mask: text with perfect
-grammar, genre-appropriate words, and no obvious tic — that is still lifeless.
+grammar, genre-appropriate words, and no obvious tic  -  that is still lifeless.
 Signs: uniform sentence length, zero opinion, no uncertainty, no first person
 where it would be natural, everything resolved.
 
 The fix is **rhythm and (opt-in) real stance**, not decoration and not invented
 color. If the artifact and author don't support a stance (a neutral reference
-paragraph, a formal report), leave it clean and plain — that is the correct,
+paragraph, a formal report), leave it clean and plain  -  that is the correct,
 finished state, not a defect to be jazzed up.

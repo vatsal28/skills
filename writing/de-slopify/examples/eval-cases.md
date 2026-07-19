@@ -1,4 +1,4 @@
-# de-slopify — evaluation cases
+# de-slopify  -  evaluation cases
 
 Seven cases covering the main artifact types and the two hardest failure modes
 (inventing specifics, and over-editing human text). Each case has an input,
@@ -11,7 +11,7 @@ artifact.
 
 ---
 
-## Case 1 — LinkedIn post (social slop)
+## Case 1  -  LinkedIn post (social slop)
 
 **Artifact:** first-person LinkedIn post. Short lines are fine here.
 
@@ -33,7 +33,7 @@ artifact.
 - Remove formula-manufactured sass: "But here's the thing:" (B14), "The
   result?" (B14), "And honestly?" (B14).
 - Remove negative parallelism (B3) and the tailing-negation stack (B4).
-- Keep it punchy and first-person — format follows the artifact; short lines
+- Keep it punchy and first-person  -  format follows the artifact; short lines
   stay.
 - Keep every real number (3 weeks, half, team of 4, "best quarter"). No
   invented anecdote or metric.
@@ -45,7 +45,7 @@ artifact.
 > We rebuilt our onboarding in 3 weeks, with a team of 4. Signup time dropped by
 > half.
 >
-> It turned into our best quarter yet — and it changed how I think about
+> It turned into our best quarter yet  -  and it changed how I think about
 > shipping. Fast isn't a hack you bolt on. It's how the team works day to day.
 
 *(Note: one em dash kept; the author's LinkedIn voice tolerates it. If Vatsal's
@@ -53,7 +53,7 @@ no-em-dash rule applies to his own posts, swap it for a period.)*
 
 ---
 
-## Case 2 — Technical README section
+## Case 2  -  Technical README section
 
 **Artifact:** README. Register stays technical; structural bullets stay.
 
@@ -74,7 +74,7 @@ no-em-dash rule applies to his own posts, swap it for a period.)*
 - Restore copulas: "serves as" → "is"; "offers" → "has" (B2).
 - Drop "seamlessly"/"powerful" brochure adjectives (A3).
 - Inline-header bullets (C3): convert to prose *if* they don't carry real
-  parallel structure; here they're thin, so prose reads better — but keeping a
+  parallel structure; here they're thin, so prose reads better  -  but keeping a
   cleaned list is also acceptable since READMEs use lists legitimately.
 - No personality injection. No emoji added.
 
@@ -87,7 +87,7 @@ no-em-dash rule applies to his own posts, swap it for a period.)*
 
 ---
 
-## Case 3 — Neutral bio / wiki-style paragraph
+## Case 3  -  Neutral bio / wiki-style paragraph
 
 **Artifact:** neutral reference prose. No stance, no first person.
 
@@ -118,7 +118,7 @@ of cutting. Never supply it from outside.)*
 
 ---
 
-## Case 4 — Trap case: sparse input (must not invent)
+## Case 4  -  Trap case: sparse input (must not invent)
 
 **Artifact:** short blog intro. Almost no concrete facts in the source.
 
@@ -132,7 +132,7 @@ of cutting. Never supply it from outside.)*
 **Expected behavior**
 
 - This is the counter to the humanizer worked-example flaw. There are **no
-  specifics in the source** — so the skill must NOT manufacture studies, names,
+  specifics in the source**  -  so the skill must NOT manufacture studies, names,
   numbers, or "concrete details" to fake specificity.
 - Strip inflation (A1, A3, A7, A11) and copula avoidance (B2). What remains is
   honestly thin.
@@ -143,13 +143,13 @@ of cutting. Never supply it from outside.)*
 
 > This project shows what a small, motivated team can build.
 
-*(Plus a note to the author: "The draft had no concrete facts to keep — it
+*(Plus a note to the author: "The draft had no concrete facts to keep  -  it
 needs real details (what was built, results, for whom) to say more. I won't
 invent them.")*
 
 ---
 
-## Case 5 — Trap case: competent human formal text
+## Case 5  -  Trap case: competent human formal text
 
 **Artifact:** formal paragraph, already human-written, Oxford comma, one
 "Additionally."
@@ -168,7 +168,7 @@ invent them.")*
   tell).
 - Correct output: minimal or **no** changes, with a one-line note that the text
   doesn't need de-slopping. Tests false-positive discipline.
-- At most, "Additionally," could be trimmed — but leaving it is equally valid.
+- At most, "Additionally," could be trimmed  -  but leaving it is equally valid.
 
 **Reference rewrite**
 
@@ -179,43 +179,43 @@ invent them.")*
 
 ---
 
-## Case 6 — Voice-calibration case (same slop, two authors)
+## Case 6  -  Voice-calibration case (same slop, two authors)
 
 **Artifact:** same first-person slop paragraph, two supplied voice samples.
 
 **Input (draft)**
 
 > I recently delved into a new productivity system, and honestly? It's not just
-> a tool — it's a game-changer. Here's why: it seamlessly streamlines my day
+> a tool  -  it's a game-changer. Here's why: it seamlessly streamlines my day
 > and empowers me to focus on what truly matters.
 
-**Sample A — terse engineer:** short declaratives, no adjectives, semicolons,
+**Sample A  -  terse engineer:** short declaratives, no adjectives, semicolons,
 dry.
-**Sample B — discursive essayist:** long clauses, parenthetical asides, wry.
+**Sample B  -  discursive essayist:** long clauses, parenthetical asides, wry.
 
 **Expected behavior**
 
 - Remove B1 ("delved," "game-changer," "seamlessly," "streamlines,"
   "empowers"), B3 ("not just… it's…"), B14 ("honestly?"), B15 ("Here's why:").
 - Two visibly **different** rewrites, each drawn from its sample's rhythm and
-  lexicon — proving no single house voice is imposed.
+  lexicon  -  proving no single house voice is imposed.
 - Neither invents new facts about the system.
 
-**Reference rewrite — A (terse engineer)**
+**Reference rewrite  -  A (terse engineer)**
 
 > I switched productivity systems last week. It cuts the daily setup; I spend
 > more time on actual work.
 
-**Reference rewrite — B (discursive essayist)**
+**Reference rewrite  -  B (discursive essayist)**
 
-> I picked up a new productivity system recently — nothing revolutionary,
-> whatever the marketing says — but it has quietly taken the fiddly parts of my
+> I picked up a new productivity system recently  -  nothing revolutionary,
+> whatever the marketing says  -  but it has quietly taken the fiddly parts of my
 > morning off my plate, which leaves more of the day for the work I actually
 > came to do.
 
 ---
 
-## Case 7 — Chat-residue cleanup
+## Case 7  -  Chat-residue cleanup
 
 **Artifact:** pasted ChatGPT answer to be cleaned before use.
 

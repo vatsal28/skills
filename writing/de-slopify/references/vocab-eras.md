@@ -1,4 +1,4 @@
-# de-slopify — rotating AI vocabulary by model era
+# de-slopify  -  rotating AI vocabulary by model era
 
 AI vocabulary is not a fixed blacklist. It drifts as models change, and today's
 tell becomes tomorrow's ordinary word. Keep this list **separate** from the
@@ -12,14 +12,14 @@ guidance.
   figuratively/inflationarily against its plain meaning.
 - Any word here is fine in its genuine domain: "robust" in an engineering doc,
   "delve" quoting Beowulf scholarship, "landscape" describing actual terrain.
-- Newer eras add words but rarely retire the old ones from human suspicion —
+- Newer eras add words but rarely retire the old ones from human suspicion  - 
   weight recent-era clusters more heavily, but keep the older lists.
 - When Vatsal shares new era observations, append a dated block below and log it
   in `../UPDATES.md`. Do not rewrite history; add.
 
 ---
 
-## Era 1 — 2023 to mid-2024 (GPT-4 generation)
+## Era 1  -  2023 to mid-2024 (GPT-4 generation)
 
 delve, tapestry, testament, boasts, intricate, pivotal, realm, showcase,
 underscore, foster, nuanced, multifaceted, meticulous, myriad, bustling,
@@ -28,7 +28,7 @@ crucial, vibrant, seamless, unwavering, treasure trove.
 Signature figurative tics: "rich tapestry of," "stands as a testament to,"
 "delve into," "navigate the complexities of."
 
-## Era 2 — mid-2024 to mid-2025 (GPT-4o generation)
+## Era 2  -  mid-2024 to mid-2025 (GPT-4o generation)
 
 fostering, showcasing, align with, vibrant, leverage, streamline, empower,
 elevate, resonate, holistic, synergy, robust, dynamic, curated, intentional,
@@ -37,7 +37,7 @@ game-changer, spearhead.
 Signature tics: "align with your goals," "showcasing the importance of,"
 "foster a sense of community," "in today's fast-paced world."
 
-## Era 3 — mid-2025 onward (GPT-5 generation and later)
+## Era 3  -  mid-2025 onward (GPT-5 generation and later)
 
 emphasizing, enhance, highlighting, showcasing, notability-speak (framing that
 justifies why a subject "matters" or is "recognized"), "reflects a broader,"

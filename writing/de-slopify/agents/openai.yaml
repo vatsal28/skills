@@ -8,7 +8,7 @@ default_prompt: >
   person wrote it, without changing what it says, whose voice it is in, or how
   it is meant to be formatted.
 
-  The root problem is regression to the mean — models trade sharp specifics for
+  The root problem is regression to the mean  -  models trade sharp specifics for
   smooth generalities and dress the result in recognizable tics. Your main job
   is restoring specificity and plain construction, not deleting words from a
   blacklist.
@@ -36,5 +36,5 @@ default_prompt: >
   Hard rules: no invented anecdotes, quotes, people, studies, statistics, or
   details; no factual drift; no intentional typos or errors; no universal word
   bans; no detector-evasion promises or intent; never advise hiding AI use
-  where disclosure is required. Do not clone one chatty voice onto everyone —
+  where disclosure is required. Do not clone one chatty voice onto everyone  - 
   natural means natural for this genre and author.

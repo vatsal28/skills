@@ -1,0 +1,84 @@
+de-slopify — licensing and attribution
+=======================================
+
+This skill combines original work with material adapted from two upstream
+sources under different licenses. To respect both, the skill is licensed in two
+parts. Please observe the split.
+
+
+1. Skill logic and original text — MIT License
+----------------------------------------------
+
+The workflow, structure, agent prompt, original examples, and original prose in
+this package are:
+
+    Copyright (c) 2026 Vatsal Mishra
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+
+2. Adapted taxonomy content — CC BY-SA 4.0 (share-alike)
+--------------------------------------------------------
+
+Portions of the pattern taxonomy in references/patterns.md,
+references/weak-signals.md, and references/vocab-eras.md are adapted from:
+
+    Wikipedia: "Signs of AI writing" (WikiProject AI Cleanup)
+    https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+    Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).
+
+    A condensed derivative was also consulted:
+    ETB Libraries Ireland, "Signs of AI Writing"
+    https://library.etbi.ie/sources2/aisigns (CC BY-SA).
+
+Because CC BY-SA is a copyleft license, the adapted documentation content in the
+three reference files is made available under CC BY-SA 4.0. If you redistribute
+or modify those adapted portions, you must attribute the source and share your
+changes under the same license. The MIT grant in Part 1 does not override this
+requirement for the CC BY-SA-derived material.
+
+CC BY-SA 4.0 full text: https://creativecommons.org/licenses/by-sa/4.0/
+
+
+3. Additional attribution
+-------------------------
+
+Structure and several before/after pairs are informed by:
+
+    blader/humanizer by Siqi Chen (@blader)
+    https://github.com/blader/humanizer
+    MIT License. Announced 2026-01-18.
+    (blader/humanizer is itself derived from the Wikipedia page above.)
+
+Social/marketing-copy tells (patterns B14, B16) are informed, by paraphrase, by:
+
+    Hunting the Muse, "How to spot when writing is AI: 6 elements of a robot's
+    style"
+    https://huntingthemuse.net/library/how-to-tell-if-writing-is-ai
+
+No long passages from any source are reproduced. All examples are paraphrased or
+original.
+
+
+Summary
+-------
+
+- Skill logic + original prose: MIT (c) 2026 Vatsal Mishra.
+- Taxonomy adapted from Wikipedia/ETBI: CC BY-SA 4.0, share-alike.
+- Credit to blader/humanizer (MIT, Siqi Chen) and Hunting the Muse.
